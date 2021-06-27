@@ -5,7 +5,8 @@ class CustomerData
     public function __construct(
         public string $name,
         public string $email,
-        private string $password,
-        public bool $isAdmin
+        protected string $cpf,
+        public string $birth_date,
+        private string $password
     ) { }
 }
