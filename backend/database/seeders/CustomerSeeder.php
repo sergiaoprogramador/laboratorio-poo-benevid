@@ -23,6 +23,14 @@ class CustomerSeeder extends Seeder
                 'phone' => '+55066999611661',
                 'birth_date' => '1996-03-22',
                 'password' => Hash::make("@Mudar12345")
+            ],
+            [
+                'name' => 'Benevid',
+                'email' => 'benevid@unemat.br',
+                'cpf' => '12345678911',
+                'phone' => '+55066999611661',
+                'birth_date' => '1996-03-22',
+                'password' => Hash::make("@Mudar12345")
             ]
         ]);
     }

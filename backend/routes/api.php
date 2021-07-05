@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Site\Customers\Controllers\CustomersController;
+use App\Web\Controllers\CustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +23,6 @@ Route::get('', function () {
     return "API is running!";
 });
 
-Route::get('/customers', [CustomersController::class, 'index']);
+Route::get('/customers', [CustomerController::class, 'index']);
+
+Route::get('/products', [ProductsController::class, 'index']);

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Site\Customers\Queries;
+namespace App\Web\Queries;
 
 use Domain\Customers\Models\Customer;
 use Illuminate\Http\Request;
