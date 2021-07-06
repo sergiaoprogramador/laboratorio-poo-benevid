@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Web\Controllers\CustomerController;
 use App\Web\Controllers\ProductController;
+use App\Web\Controllers\CategoryController;
+use App\Web\Controllers\ReviewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +25,7 @@ Route::get('', function () {
 Route::get('/customers', [CustomerController::class, 'index']);
 
 Route::get('/products', [ProductController::class, 'index']);
+
+Route::get('/categories', [CategoryController::class, 'index']);
+
+Route::get('/reviews', [ReviewController::class, 'index']);
