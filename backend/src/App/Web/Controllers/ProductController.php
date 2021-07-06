@@ -3,8 +3,9 @@
 namespace App\Web\Controllers;
 
 use App\Http\Controller;
-use App\Traits\ResponseAPI;
 use App\Web\Queries\ProductIndexQuery;
+use App\Web\Resources\ProductResource;
+use App\Traits\ResponseAPI;
 
 class ProductController extends Controller
 {
@@ -16,6 +17,6 @@ class ProductController extends Controller
 
         if (!$products) $this->error("Not exists Products for this Query: ", 404);
 
-        return $this->success("Query request Products: ", CustomerResource::collection($products), 200);
+        return $this->success("Query request Products: ", ProductResource::collection($products), 200);
     }
 }

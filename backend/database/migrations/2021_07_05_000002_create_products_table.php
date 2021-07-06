@@ -21,11 +21,10 @@ class CreateProductsTable extends Migration
             $table->double('price');
             $table->integer("countInStock");
             $table->text('description');
-            $table->integer("numReviews");
             $table->timestamps();
 
             $table->softDeletes($column = "deleted_at", $precision = 0);
-            $table->foreignId('category_id')->constrained();
+            $table->foreignId('category_id')->constrained("categories");
         });
     }
 

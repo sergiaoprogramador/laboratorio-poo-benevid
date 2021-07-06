@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Web\Controllers\CustomerController;
+use App\Web\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,14 +16,10 @@ use App\Web\Controllers\CustomerController;
 |
 */
 
-// Route::middleware('auth:api')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
-
 Route::get('', function () {
     return "API is running!";
 });
 
 Route::get('/customers', [CustomerController::class, 'index']);
 
-Route::get('/products', [ProductsController::class, 'index']);
+Route::get('/products', [ProductController::class, 'index']);
