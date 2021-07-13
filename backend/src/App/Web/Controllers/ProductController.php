@@ -4,8 +4,8 @@ namespace App\Web\Controllers;
 
 use App\Http\Controller;
 use App\Web\Queries\ProductIndexQuery;
-use App\Web\Resources\ProductResource;
 use App\Traits\ResponseAPI;
+use App\Web\Resources\ProductResource;
 
 class ProductController extends Controller
 {
@@ -13,10 +13,10 @@ class ProductController extends Controller
 
     public function index(ProductIndexQuery $query)
     {
-        $products = $query->paginate();
+        $products = $query->paginate(4);
 
         if (!$products) $this->error("Not exists Products for this Query: ", 404);
 
-        return $this->success("Query request Products: ", ProductResource::collection($products), 200);
+        return ProductResource::collection($products);
     }
 }
