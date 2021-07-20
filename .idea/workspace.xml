@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3167d9cb-08e5-4a5c-ba07-39edcd8e5c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/components/product/Card.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Pagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/product/Pagination.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/product/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/product/Card.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +157,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/components/product" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -166,7 +172,7 @@
       <updated>1626215339803</updated>
       <workItem from="1626215341573" duration="7030000" />
       <workItem from="1626263957865" duration="639000" />
-      <workItem from="1626737652872" duration="8810000" />
+      <workItem from="1626737652872" duration="13945000" />
     </task>
     <servers />
   </component>

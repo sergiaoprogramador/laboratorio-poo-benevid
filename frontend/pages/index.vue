@@ -25,8 +25,14 @@
         />
       </v-col>
     </v-row>
-    <v-row>
-      {{ products.data }}
+    <v-row justify="center" align="center" class="mb-10">
+      <v-pagination
+        v-model="page"
+        :length="meta.last_page"
+        :value="meta.current_page"
+        :total-visible="5"
+        @input="onPageChange"
+      ></v-pagination>
     </v-row>
   </div>
 </template>
@@ -34,7 +40,10 @@
 <script>
 export default {
   data: () => ({
-    productItems: null
+    productItems: null,
+    links: null,
+    meta: null,
+    page: 1
   }),
   async asyncData({ $axios }) {
     const products = await $axios.$get('products');
@@ -44,6 +53,13 @@ export default {
     this.productItems = this.products.data.map(function (value, key) {
       return {name: value.name, id: value.id};
     });
+    this.links = this.products.links;
+    this.meta = this.products.meta;
+  },
+  methods: {
+    async onPageChange() {
+      this.products = await this.$axios.$get('products?page=' + this.page);
+    }
   }
 }
 </script>
