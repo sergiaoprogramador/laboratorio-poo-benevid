@@ -55,7 +55,6 @@
         class="ma-1"
         color="white"
         plain
-        @click="remove"
       >
         Sign in
       </v-btn>

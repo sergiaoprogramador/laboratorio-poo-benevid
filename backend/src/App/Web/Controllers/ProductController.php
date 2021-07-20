@@ -13,7 +13,7 @@ class ProductController extends Controller
 
     public function index(ProductIndexQuery $query)
     {
-        $products = $query->paginate(4);
+        $products = $query->paginate(6);
 
         if (!$products) $this->error("Not exists Products for this Query: ", 404);
 
