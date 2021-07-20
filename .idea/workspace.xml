@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3167d9cb-08e5-4a5c-ba07-39edcd8e5c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/components/Pagination.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/components/filters/SortSelect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/products/pant.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/ProductSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/ProductSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/App/Web/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/App/Web/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/product/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/frontend/components/filters/SearchAutocomplete.vue" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frontend/components/filters/SortSelect.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/components/product/Card.vue" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frontend/pages/index.vue" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frontend/nuxt.config.js" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -174,7 +166,7 @@
       <updated>1626215339803</updated>
       <workItem from="1626215341573" duration="7030000" />
       <workItem from="1626263957865" duration="639000" />
-      <workItem from="1626737652872" duration="4635000" />
+      <workItem from="1626737652872" duration="8810000" />
     </task>
     <servers />
   </component>
